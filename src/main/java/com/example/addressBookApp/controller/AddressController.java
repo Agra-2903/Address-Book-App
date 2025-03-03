@@ -13,6 +13,7 @@ import java.util.Optional;
 @RequestMapping("/api/addresses")
 public class AddressController {
 
+    // UC4: Using Autowired
     @Autowired
     private AddressService service;
 

@@ -13,6 +13,7 @@ import java.util.stream.Collectors;
 @Service
 public class AddressService {
 
+    // UC4: Using Autowired
     @Autowired
     private AddressRepository repository;
 
